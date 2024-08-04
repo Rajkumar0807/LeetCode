@@ -1,7 +1,7 @@
 class Solution {
     public int countPrimes(int n) 
     {
-        if(n==3) return 1;
+        // if(n==3) return 1;
         if(n==0||n==1||n==2) return 0;
         int arr[]=new int[n-1];
         for(int i=0;i<n-1;i++)
