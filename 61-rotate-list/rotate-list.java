@@ -2,8 +2,8 @@
 class Solution {
     public ListNode rotateRight(ListNode head, int k) 
     {
-           if(head==null) return head;
-           if(head.next==null) return head;
+           if(head==null||head.next==null) return head;
+      
             ListNode temp=head;
             int c=0;
             
