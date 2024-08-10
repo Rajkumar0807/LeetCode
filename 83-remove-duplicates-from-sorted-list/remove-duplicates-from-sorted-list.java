@@ -19,7 +19,7 @@ class Solution {
             }
             
         }
-        if(temp2==null) temp1.next=null;
+       temp1.next=null;
         return head;
         
     }
