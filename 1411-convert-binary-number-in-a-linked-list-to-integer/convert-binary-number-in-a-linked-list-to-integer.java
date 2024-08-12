@@ -14,7 +14,10 @@ class Solution {
         for(int i=s.length()-1;i>=0;i--)
         {
             int n=s.charAt(i)-48;
+            if(n!=0)
+            {
             sum=sum+n*(int)Math.pow(2,j);
+            }
             j++;
         }
         return sum;
