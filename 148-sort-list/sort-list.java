@@ -29,11 +29,8 @@ class Solution {
             i++;
             t=t.next;
         }
-
-
-        return head;
-    
-
         
+        return head;
+ 
     }
 }
