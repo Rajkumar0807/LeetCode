@@ -22,9 +22,9 @@ class Solution {
                 t3=t3.next.next;
             }
             i++;
-            if(t1.next==null)  break;
+          if(t1.next==null)  break;
             t1=t1.next;
-            if(t1.next==null) break;
+           if(t1.next==null) break;
             t2=t1.next;
            
 
