@@ -31,9 +31,12 @@ class Solution {
             {
                 for(j=0;j<m;j++)
                 {
+                    if(board[i][j]==word.charAt(0))
+                    {
                     if(solve(board,n,m,i,j,word,0))
                     {
                         return true;
+                    }
                     }
                 
                 }
